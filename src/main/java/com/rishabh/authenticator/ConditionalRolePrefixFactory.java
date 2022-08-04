@@ -67,7 +67,7 @@ public class ConditionalRolePrefixFactory implements ConditionalAuthenticatorFac
         name.setType(STRING_TYPE);
         name.setName(PREFIX);
         name.setLabel("Role Prefix");
-        name.setHelpText("In captial letter , PREFIX of role from which login is allowed");
+        name.setHelpText("Role Prefix");
 
         return Collections.singletonList(name);
     }
